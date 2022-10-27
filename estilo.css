@@ -1,0 +1,46 @@
+body{
+     width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(https://media0.giphy.com/media/G8NKqvsjsHyhJpFGLn/giphy.gif?cid=ecf05e47j7q4j00eidbtdem3i7kj0ysxbnttdkup0lcusf9s&rid=giphy.gif&ct=g)  center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;    
+    height: 100vh;
+    width: 100%;
+}
+
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+.logo{
+    max-width: 123px;
+}
+
+.imgProductos{
+    width: 150px;
+    height: 200px;
+    object-fit:contain;
+    margin-top: 1rem;
+}
+
+.card{
+    display:flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+    transition-duration: 0.25s;
+}
+.colorBoton{
+    color:white;
+    background-color: blue;
+}
+
+.colorBoton:hover{
+    background-color: skyblue;
+    color: black;
+}
