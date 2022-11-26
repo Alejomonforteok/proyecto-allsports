@@ -13,11 +13,11 @@ class Producto {
 
 const productoManchesterCityHomekit = new Producto(1, "Camiseta Manchester City Homekit", 14899, "https://cdn.shopify.com/s/files/1/0016/1061/2806/products/manchester-city-2022-23-puma-home-kit-8_3f4c4192-9c06-4739-9d29-58454f092844_grande.jpg?v=1655129844");
 const productoBarcelonaHomekit = new Producto(2, "Camiseta Barcelona Homekit", 17499, "https://www.opensports.com.ar/media/catalog/product/cache/4769e4d9f3516e60f2b4303f8e5014a8/C/V/CV7891-428_0_1.jpg");
-const productoBotinesMercurialKM = new Producto(3, "Botines Mercurial KM", 29999, "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw5279fa7a/products/NI_DB2857-506/NI_DB2857-506-1.JPG");
+const productoBotinesMercurialKM = new Producto(3, "Botines Nike Mercurial KM", 29999, "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw5279fa7a/products/NI_DB2857-506/NI_DB2857-506-1.JPG");
 const productoParisSaintGermain3rdkit = new Producto(4, "Camiseta Paris Saint Germain 3RD kit", 17399, "https://tiendagolperu.com/wp-content/uploads/2021/10/psg-2021-22-nike-third-kit-3.jpg");
-const productoGuantesReusch = new Producto(5, "Guantes Reusch", 5499, "https://www.guantesdearquero.com/wp-content/uploads/2022/01/guantes-reusch-attrakt-2022-2-1-819x1024.png");
-const productoBotinesPredator = new Producto(6, "Botines Predator", 23999, "https://static.privatesportshop.com/img/p/3834936-11539283.jpg");
-const productoGuantesNike = new Producto(7, "Guantes Nike", 3999, "https://www.gransport.es/9966-large_default/guantes-portero-nike-mercurial-touch-victory-future-lab.jpg");
+const productoGuantesReusch = new Producto(5, "Guantes de Arquero Reusch", 5499, "https://www.guantesdearquero.com/wp-content/uploads/2022/01/guantes-reusch-attrakt-2022-2-1-819x1024.png");
+const productoBotinesPredator = new Producto(6, "Botines  Adidas Predator", 23999, "https://static.privatesportshop.com/img/p/3834936-11539283.jpg");
+const productoGuantesNike = new Producto(7, "Guantes Nike Mercurial", 3999, "https://www.gransport.es/9966-large_default/guantes-portero-nike-mercurial-touch-victory-future-lab.jpg");
 const productoBayernHomekit = new Producto(8, "Camiseta Bayern Homekit", 15999, "https://todosobrecamisetas.com/wp-content/uploads/bayern-munich-2022-23-adidas-home-kit-9.jpg");
 const productoManchesterUnitedHomekit = new Producto(9, "Camiseta Manchester United Homekit", 15999, "https://mezzalacamisetas.com.ar/wp-content/uploads/2022/07/man.jpg");
 const productoRealMadrid2ndKit = new Producto(10, "Camiseta Real Madrid 2ND kit", 15799, "https://cdn.shopify.com/s/files/1/0016/1061/2806/products/segunda-equipacion-adidas-real-madrid-2022-23-9_grande.jpg?v=1656692319");
@@ -25,7 +25,7 @@ const productoInterDeMilanoHomekit = new Producto(11, "Camiseta Inter De Milano 
 const productoRealMadridHomekit = new Producto(12, "Camiseta Real Madrid Homekit", 15799, "https://newsport.vteximg.com.br/arquivos/ids/13311002-1000-1000/GR3994-A.jpg?v=637856264483630000");
 const productoACMilanHomekit = new Producto(13, "Camiseta AC Milan Homekit", 14899, "https://http2.mlstatic.com/D_NQ_NP_992911-MLA51821874346_102022-W.jpg");
 const productoInterDeMilano2ndkit = new Producto(14, "Camiseta Inter de Milano 2ND kit", 17499, "https://assets-es.imgfoot.com/media/cache/800x800/inter-milan-away-2021-2022.jpg");
-const productoGuantesAdidas = new Producto(15, "Guantes Predator", 15299, "https://media.futbolmania.com/media/catalog/product/cache/1/image/0f330055bc18e2dda592b4a7c3a0ea22/F/H/FH7288_imagen-de-los-Guantes-de-portero-futbol-adidas-predator-gl-pro-2020-negro-rojo_1_pie-derecho.jpg");
+const productoGuantesAdidas = new Producto(15, "Guantes Adidas Predator", 15299, "https://media.futbolmania.com/media/catalog/product/cache/1/image/0f330055bc18e2dda592b4a7c3a0ea22/F/H/FH7288_imagen-de-los-Guantes-de-portero-futbol-adidas-predator-gl-pro-2020-negro-rojo_1_pie-derecho.jpg");
 const productoParisSaintGermainHomekit = new Producto(16, "Camiseta Paris Saint Germain Homekit", 17399, "https://images.footballfanatics.com/paris-saint-germain/paris-saint-germain-home-vapor-match-shirt-2022-23-with-rsanches-18-printing_ss4_p-13359518+pv-1+u-1afabma5052mcje6rvkh+v-927a86a69ee343e18da331999e91997d.png?_hv=2&w=900");
 const productoBarcelona2ndkit = new Producto(17, "Camiseta Barcelona 2ND kit", 17499, "https://static.nike.com/a/images/t_default/cc0aa973-6074-4bf2-9ed2-637640a23160/jersey-de-f%C3%BAtbol-dri-fit-adv-del-fc-barcelona-visitante-2021-2022-match-LRQg9V.png");
 const productoManchesterCity2ndkit = new Producto(18, "Camiseta Manchester City 2ND kit", 14899, "https://newsport.vteximg.com.br/arquivos/ids/10552724-1000-1000/75921903-A.jpg?v=637698166883200000");
@@ -212,10 +212,9 @@ const calcularTotal = () => {
 }
 
 /***********API***********/
-
 var myHeaders = new Headers();
-myHeaders.append("x-rapidapi-key", "2bcb7feac5msh9139ca53ed51ed8p1217b1jsn2a1cd22d78ed");
-myHeaders.append("x-rapidapi-host", "api-football-v1.p.rapidapi.com");
+myHeaders.append("x-rapidapi-key", "2edf2289b2180a4a51868658c35df58c");
+myHeaders.append("x-rapidapi-host", "v3.football.api-sports.io");
 
 var requestOptions = {
   method: 'GET',
@@ -223,8 +222,34 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch(" https://api-football-v1.p.rapidapi.com/v3/", requestOptions)
+///////Status////
+
+fetch(" https://v3.football.api-sports.io/status", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
+
+//////Timezone////
+fetch("https://v3.football.api-sports.io/timezone", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "v3.football.api-sports.io",
+		"x-rapidapi-key": "2edf2289b2180a4a51868658c35df58c"
+	},
+    "response":[57],
+})
+.then(response => {
+	console.log(response);
+})
+.catch(err => {
+	console.log(err);
+});
+
+///////Competition////
+
+    fetch("https://v3.football.api-sports.io/leagues?id=1&season=2022", requestOptions)
+    .then(response => response.text())
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
+
 
