@@ -68,7 +68,7 @@ const mostrarProductos = () => {
         contenedorProductos.appendChild(card);
 
 
-//Agregar productos al carrito con Sweet Alert: 
+        //Agregar productos al carrito con Sweet Alert: 
 
         const boton = document.getElementById(`boton${producto.id}`);
         boton.addEventListener("click", () => {
@@ -180,14 +180,14 @@ vaciarCarrito.addEventListener("click", () => {
         confirmButtonColor: '#0320fc',
         cancelButtonColor: '#d33',
         confirmButtonText: 'Si, vaciar carrito!'
-      }).then((result) => {
+    }).then((result) => {
         if (result.isConfirmed) {
-          Swal.fire(
-            'Carrito vacio',
+            Swal.fire(
+                'Carrito vacio',
             )
             eliminarTodoElCarrito();
         }
-      })
+    })
 })
 
 //Función para eliminar todo el carrito: 
@@ -210,54 +210,3 @@ const calcularTotal = () => {
     })
     total.innerHTML = ` Total: $${totalCompra}`;
 }
-
-/***********API***********/
-/* var myHeaders = new Headers();
-myHeaders.append("x-rapidapi-key", "2edf2289b2180a4a51868658c35df58c");
-myHeaders.append("x-rapidapi-host", "v3.football.api-sports.io");
-
-var requestOptions = {
-  method: 'GET',
-  headers: myHeaders,
-  redirect: 'follow'
-};
-
-///////Status////
-
-fetch(" https://v3.football.api-sports.io/status", requestOptions)
-  .then(response => response.text())
-  .then(result => console.log(result))
-  .catch(error => console.log('error', error));
-
-//////Timezone////
-
-fetch("https://v3.football.api-sports.io/timezone", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "v3.football.api-sports.io",
-		"x-rapidapi-key": "2edf2289b2180a4a51868658c35df58c"
-	},
-    "response" : [],
-
-})
-.then(response => {
-	console.log(response);
-})
-.catch(err => {
-	console.log(err);
-});
-
-
-///////Competition////
-
-    fetch("https://v3.football.api-sports.io/leagues?id=1&season=2022", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
-
-
-
-//Prueba
-
- */
-
