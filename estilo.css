@@ -44,3 +44,12 @@ body{
     background-color: skyblue;
     color: black;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: skyblue;
+}

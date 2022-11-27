@@ -212,7 +212,7 @@ const calcularTotal = () => {
 }
 
 /***********API***********/
-var myHeaders = new Headers();
+/* var myHeaders = new Headers();
 myHeaders.append("x-rapidapi-key", "2edf2289b2180a4a51868658c35df58c");
 myHeaders.append("x-rapidapi-host", "v3.football.api-sports.io");
 
@@ -230,13 +230,15 @@ fetch(" https://v3.football.api-sports.io/status", requestOptions)
   .catch(error => console.log('error', error));
 
 //////Timezone////
+
 fetch("https://v3.football.api-sports.io/timezone", {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "v3.football.api-sports.io",
 		"x-rapidapi-key": "2edf2289b2180a4a51868658c35df58c"
 	},
-    "response":[57],
+    "response" : [],
+
 })
 .then(response => {
 	console.log(response);
@@ -245,6 +247,7 @@ fetch("https://v3.football.api-sports.io/timezone", {
 	console.log(err);
 });
 
+
 ///////Competition////
 
     fetch("https://v3.football.api-sports.io/leagues?id=1&season=2022", requestOptions)
@@ -252,4 +255,9 @@ fetch("https://v3.football.api-sports.io/timezone", {
     .then(result => console.log(result))
     .catch(error => console.log('error', error));
 
+
+
+//Prueba
+
+ */
 
