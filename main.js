@@ -39,6 +39,49 @@ const productos = [productoManchesterCityHomekit, productoBarcelonaHomekit, prod
     productoBarcelona2ndkit, productoManchesterCity2ndkit, productoManchesterUnited2ndkit, productoBotinesMercurialSuperfly
 ];
 
+//Traer los productos del data.json//
+
+function cargarArchivoJson() {
+    const productosJson = `./data.json`;
+
+    fetch(productosJson)
+        .then((respuesta) => respuesta.json())
+        .then((datos) => {
+
+
+            datos.forEach((producto) => {
+                listaStock.push(producto);
+            });
+        })
+}
+
+
+const fetchData = async () => {
+    try {
+        const respuesta = await fetch('./data.json');
+        const data = await respuesta.json();
+        crearCards(data)
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+//Crear el html del data.json//
+const crearCards = data => {
+    data.forEach(producto => {
+
+        templateTarjetas.querySelector('h5').textContent = `${producto.nombre}`
+        templateTarjetas.getElementById('precio').textContent = ` ${producto.precio}`
+        templateTarjetas.querySelector('img').setAttribute("src", producto.img)
+        templateTarjetas.querySelector('.btn-dark').dataset.id = producto.id
+
+        const clone = templateTarjetas.cloneNode(true)
+        fragment.appendChild(clone)
+
+    })
+    cards.appendChild(fragment)
+}
+
 //Array Carrito
 
 let carrito = [];
