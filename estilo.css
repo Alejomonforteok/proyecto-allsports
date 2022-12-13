@@ -1,55 +1,132 @@
-body{
-     width: 100%;
+body {
+    width: 100%;
     margin: 0;
     padding: 0;
-    background: url(https://media0.giphy.com/media/G8NKqvsjsHyhJpFGLn/giphy.gif?cid=ecf05e47j7q4j00eidbtdem3i7kj0ysxbnttdkup0lcusf9s&rid=giphy.gif&ct=g)  center center;
+    background: url(https://media0.giphy.com/media/G8NKqvsjsHyhJpFGLn/giphy.gif?cid=ecf05e47j7q4j00eidbtdem3i7kj0ysxbnttdkup0lcusf9s&rid=giphy.gif&ct=g) center center;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;    
+    background-position: center;
     height: 100vh;
     width: 100%;
 }
 
-*{
+* {
     font-family: 'Bebas Neue', cursive;
 }
-.logo{
+
+.logo {
     max-width: 123px;
 }
 
-.imgProductos{
+.imgProductos {
     width: 150px;
     height: 200px;
-    object-fit:contain;
+    object-fit: contain;
     margin-top: 1rem;
 }
 
-.card{
-    display:flex;
+.contenedor {
+    display: flex;
     align-items: center;
     margin: 0.5rem;
 }
 
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-3%);
     transition-duration: 0.25s;
 }
-.colorBoton{
-    color:white;
+
+.colorBoton {
+    color: white;
     background-color: #0320fc;
 }
 
-.colorBoton:hover{
+.colorBoton:hover {
     background-color: skyblue;
     color: black;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+a:hover {
     color: skyblue;
 }
+
+.carrito__table {
+    margin-bottom: 2rem;
+}
+
+.borrar-producto {
+    display: flex;
+    background-color: #e83939;
+    padding: 1rem;
+    border-radius: 5rem;
+    color: white;
+}
+
+.boton__vaciar {
+    text-transform: uppercase;
+    background-color: #0320fc;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+
+}
+
+.boton__vaciar:hover {
+    background-color: #0320fc;
+    color: white;
+}
+
+.boton__pagar {
+    text-transform: uppercase;
+    background-color: #0320fc;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+}
+
+.boton__pagar:hover {
+    background-color: #07e816;
+    color: white;
+}
+
+ /* Cards */
+
+
+ .tarjetas-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-auto-rows: minmax(26rem, auto);
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+
+.tarjeta__boton {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    background-color: #0320fc;
+    color: white;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.tarjeta__boton:hover {
+    background-color: #07e816;
+    color: white;
+} 
