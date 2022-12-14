@@ -1,4 +1,5 @@
 
+
 ///////////*TODO SPORTS TIENDA*/////////
 
 
@@ -24,7 +25,6 @@ function cardHtml(product) {
         div.classList = "card", "col-xl-3", "col-md-6", "col-xs-12";
         div.innerHTML =
             `
-
             <div>
                 <img src="${producto.img}" class="card-img-top imgProductos" alt="${producto.nombre}">
                 <div class="card-body">
@@ -138,4 +138,5 @@ botonPagar.addEventListener('click', () => {
     carrito = [];
     mostrarCarritoHTML();
 });
+
 
