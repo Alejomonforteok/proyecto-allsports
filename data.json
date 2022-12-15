@@ -4,132 +4,152 @@
         "id": 1,
         "nombre": "Camiseta Manchester City Homekit",
         "precio": 14899,
-        "img" : "https://cdn.shopify.com/s/files/1/0016/1061/2806/products/manchester-city-2022-23-puma-home-kit-8_3f4c4192-9c06-4739-9d29-58454f092844_grande.jpg?v=1655129844"
+        "img" : "https://cdn.shopify.com/s/files/1/0016/1061/2806/products/manchester-city-2022-23-puma-home-kit-8_3f4c4192-9c06-4739-9d29-58454f092844_grande.jpg?v=1655129844",
+        "cantidad" : 1
     },
     {
         "id": 2,
         "nombre": "Camiseta Barcelona Homekit",
         "precio": 17499,
-        "img" : "https://www.opensports.com.ar/media/catalog/product/cache/4769e4d9f3516e60f2b4303f8e5014a8/C/V/CV7891-428_0_1.jpg"
+        "img" : "https://www.opensports.com.ar/media/catalog/product/cache/4769e4d9f3516e60f2b4303f8e5014a8/C/V/CV7891-428_0_1.jpg",
+        "cantidad" : 1
     },
 
     {
         "id": 3,
         "nombre": "Botines Nike Mercurial KM",
         "precio": 29999,
-        "img" : "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw5279fa7a/products/NI_DB2857-506/NI_DB2857-506-1.JPG"
+        "img" : "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw5279fa7a/products/NI_DB2857-506/NI_DB2857-506-1.JPG",
+        "cantidad" : 1
     },
 
     {
         "id": 4,
         "nombre": "Camiseta Paris Saint Germain 3RD kit",
         "precio": 17399,
-        "img" : "https://tiendagolperu.com/wp-content/uploads/2021/10/psg-2021-22-nike-third-kit-3.jpg"
+        "img" : "https://tiendagolperu.com/wp-content/uploads/2021/10/psg-2021-22-nike-third-kit-3.jpg",
+        "cantidad" : 1
     },
 
     {
         "id": 5,
         "nombre" : "Guantes de Arquero Reusch",
         "precio": 5499,
-        "img" : "https://www.guantesdearquero.com/wp-content/uploads/2022/01/guantes-reusch-attrakt-2022-2-1-819x1024.png"
+        "img" : "https://www.guantesdearquero.com/wp-content/uploads/2022/01/guantes-reusch-attrakt-2022-2-1-819x1024.png",
+        "cantidad" : 1
     },
 
     {
         "id": 6,
         "nombre": "Botines  Adidas Predator",
         "precio": 23999,
-        "img" : "https://static.privatesportshop.com/img/p/3834936-11539283.jpg"
+        "img" : "https://static.privatesportshop.com/img/p/3834936-11539283.jpg",
+        "cantidad" : 1
     },
 
     {
         "id": 7,
         "nombre": "Guantes Nike Mercurial",
         "precio": 3999,
-        "img" : "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/220/451/products/687770-mla44354887709_122020-f-db199ea34372e4aa0516082523335800-640-0.jpg"
+        "img" : "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/220/451/products/687770-mla44354887709_122020-f-db199ea34372e4aa0516082523335800-640-0.jpg",
+        "cantidad" : 1
     },
 
     {
         "id": 8,
         "nombre": "Camiseta Bayern Homekit",
         "precio": 15999,
-        "img" : "https://todosobrecamisetas.com/wp-content/uploads/bayern-munich-2022-23-adidas-home-kit-9.jpg"
+        "img" : "https://todosobrecamisetas.com/wp-content/uploads/bayern-munich-2022-23-adidas-home-kit-9.jpg",
+        "cantidad" : 1
     },
 
     {
         "id": 9,
         "nombre": "Camiseta Manchester United Homekit",
         "precio": 15999,
-        "img" : "https://mezzalacamisetas.com.ar/wp-content/uploads/2022/07/man.jpg"
+        "img" : "https://mezzalacamisetas.com.ar/wp-content/uploads/2022/07/man.jpg",
+        "cantidad" : 1
     },
 
     {
         "id": 10,
         "nombre": "Camiseta Real Madrid 2ND kit",
         "precio": 15799,
-        "img" : "https://cdn.shopify.com/s/files/1/0016/1061/2806/products/segunda-equipacion-adidas-real-madrid-2022-23-9_grande.jpg?v=1656692319"
+        "img" : "https://cdn.shopify.com/s/files/1/0016/1061/2806/products/segunda-equipacion-adidas-real-madrid-2022-23-9_grande.jpg?v=1656692319",
+        "cantidad" : 1
     },
 
     {
         "id": 11,
         "nombre": "Camiseta Inter De Milano Homekit",
         "precio": 17499,
-        "img" : "https://pontelacamiseta.pe/wp-content/uploads/2022/02/Inter-Milan-Local-Aficionado.jpg"
+        "img" : "https://pontelacamiseta.pe/wp-content/uploads/2022/02/Inter-Milan-Local-Aficionado.jpg",
+        "cantidad" : 1
     },
 
     {
         "id": 12,
         "nombre": "Camiseta Real Madrid Homekit",
         "precio": 15799,
-        "img" : "https://newsport.vteximg.com.br/arquivos/ids/13311002-1000-1000/GR3994-A.jpg?v=637856264483630000"
+        "img" : "https://newsport.vteximg.com.br/arquivos/ids/13311002-1000-1000/GR3994-A.jpg?v=637856264483630000",
+        "cantidad" : 1
     },
     {
         "id": 13,
         "nombre": "Camiseta AC Milan Homekit",
         "precio": 14899,
-        "img" : "https://http2.mlstatic.com/D_NQ_NP_992911-MLA51821874346_102022-W.jpg"
+        "img" : "https://http2.mlstatic.com/D_NQ_NP_992911-MLA51821874346_102022-W.jpg",
+        "cantidad" : 1
     },
     {
         "id": 14,
         "nombre": "Camiseta Inter de Milano 2ND kit",
         "precio": 17499,
-        "img" : "https://assets-es.imgfoot.com/media/cache/800x800/inter-milan-away-2021-2022.jpg"
+        "img" : "https://assets-es.imgfoot.com/media/cache/800x800/inter-milan-away-2021-2022.jpg",
+        "cantidad" : 1
     },
     {
         "id": 15,
         "nombre": "Guantes Adidas Predator",
         "precio": 15299,
-        "img" : "https://media.futbolmania.com/media/catalog/product/cache/1/image/0f330055bc18e2dda592b4a7c3a0ea22/F/H/FH7288_imagen-de-los-Guantes-de-portero-futbol-adidas-predator-gl-pro-2020-negro-rojo_1_pie-derecho.jpg"
+        "img" : "https://media.futbolmania.com/media/catalog/product/cache/1/image/0f330055bc18e2dda592b4a7c3a0ea22/F/H/FH7288_imagen-de-los-Guantes-de-portero-futbol-adidas-predator-gl-pro-2020-negro-rojo_1_pie-derecho.jpg",
+        "cantidad" : 1
     },
     {
         "id": 16,
         "nombre": "Camiseta Paris Saint Germain Homekit",
         "precio": 17399,
-        "img" : "https://images.footballfanatics.com/paris-saint-germain/paris-saint-germain-home-vapor-match-shirt-2022-23-with-rsanches-18-printing_ss4_p-13359518+pv-1+u-1afabma5052mcje6rvkh+v-927a86a69ee343e18da331999e91997d.png?_hv=2&w=900"
+        "img" : "https://images.footballfanatics.com/paris-saint-germain/paris-saint-germain-home-vapor-match-shirt-2022-23-with-rsanches-18-printing_ss4_p-13359518+pv-1+u-1afabma5052mcje6rvkh+v-927a86a69ee343e18da331999e91997d.png?_hv=2&w=900",
+        "cantidad" : 1
     },
     {
         "id": 17,
         "nombre": "Camiseta Barcelona 2ND kit",
         "precio": 17499,
-        "img" : "https://static.nike.com/a/images/t_default/cc0aa973-6074-4bf2-9ed2-637640a23160/jersey-de-f%C3%BAtbol-dri-fit-adv-del-fc-barcelona-visitante-2021-2022-match-LRQg9V.png"
+        "img" : "https://static.nike.com/a/images/t_default/cc0aa973-6074-4bf2-9ed2-637640a23160/jersey-de-f%C3%BAtbol-dri-fit-adv-del-fc-barcelona-visitante-2021-2022-match-LRQg9V.png",
+        "cantidad" : 1
     },
     {
         "id": 18,
         "nombre": "Camiseta Manchester City 2ND kit",
         "precio": 14899,
-        "img" : "https://newsport.vteximg.com.br/arquivos/ids/10552724-1000-1000/75921903-A.jpg?v=637698166883200000"
+        "img" : "https://newsport.vteximg.com.br/arquivos/ids/10552724-1000-1000/75921903-A.jpg?v=637698166883200000",
+        "cantidad" : 1
     },
     {
         "id": 19,
         "nombre": "Camiseta Manchester United 2ND kit",
         "precio": 15999,
-        "img" : "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/312/744/products/gshdjf1-d34683c764e261b44916305922891379-1024-1024.png"
+        "img" : "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/312/744/products/gshdjf1-d34683c764e261b44916305922891379-1024-1024.png",
+        "cantidad" : 1
     },
 
     {
         "id": 20,
         "nombre": "Botines Mercurial Superfly 8 PRO FG",
         "precio": 31299,
-        "img" : "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw9cea19e1/products/NI_CV0961-600/NI_CV0961-600-1.JPG"
+        "img" : "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw9cea19e1/products/NI_CV0961-600/NI_CV0961-600-1.JPG",
+        "cantidad" : 1
     }
 ]
 
